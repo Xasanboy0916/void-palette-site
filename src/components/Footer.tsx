@@ -7,7 +7,7 @@ const Footer = () => {
     { icon: <Github size={20} />, href: "https://github.com", label: "GitHub" },
     { icon: <Linkedin size={20} />, href: "https://linkedin.com", label: "LinkedIn" },
     { icon: <Twitter size={20} />, href: "https://twitter.com", label: "Twitter" },
-    { icon: <Mail size={20} />, href: "mailto:alex@example.com", label: "Email" },
+    { icon: <Mail size={20} />, href: "mailto:muxtorov.hasanboy@example.com", label: "Email" },
   ];
 
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold gradient-text mb-2">Alex Johnson</h3>
+            <h3 className="text-xl font-bold gradient-text mb-2">Muxtorov Hasanboy</h3>
             <p className="text-foreground/60 text-sm">
               Full Stack Developer & UI/UX Designer
             </p>
@@ -38,7 +38,7 @@ const Footer = () => {
 
           <div className="text-center md:text-right">
             <p className="text-foreground/60 text-sm">
-              © {currentYear} Alex Johnson. All rights reserved.
+              © {currentYear} Muxtorov Hasanboy. All rights reserved.
             </p>
             <p className="text-foreground/40 text-xs mt-1">
               Built with React & Tailwind CSS

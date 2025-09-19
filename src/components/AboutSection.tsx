@@ -42,13 +42,13 @@ const AboutSection = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-foreground">My Journey</h3>
             <p className="text-foreground/80 leading-relaxed">
-              Started as a curious computer science student, I've evolved into a versatile developer 
-              who bridges the gap between technical excellence and creative innovation. My experience 
-              spans from startup environments to enterprise solutions.
+              I'm a passionate full-stack developer with expertise in building scalable web applications 
+              and creating intuitive user interfaces. My journey began with curiosity about technology 
+              and has evolved into a commitment to crafting exceptional digital experiences.
             </p>
             <p className="text-foreground/80 leading-relaxed">
-              I believe in continuous learning and staying ahead of technology trends. When I'm not coding, 
-              you'll find me exploring new frameworks, contributing to open source, or mentoring aspiring developers.
+              I thrive on solving complex problems and transforming ideas into reality through clean, 
+              efficient code. Always eager to learn new technologies and share knowledge with the developer community.
             </p>
             <div className="flex flex-wrap gap-3">
               {["React", "TypeScript", "Node.js", "Python", "AWS", "Docker"].map((tech) => (

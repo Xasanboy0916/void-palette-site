@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Navigation = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -43,7 +44,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-bold gradient-text">
-            Portfolio
+            Muxtorov Hasanboy
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -60,9 +61,12 @@ const Navigation = () => {
             ))}
           </div>
 
-          <Button variant="neon" size="sm" onClick={() => scrollToSection("contact")}>
-            Let's Talk
-          </Button>
+          <div className="flex items-center space-x-3">
+            <ThemeToggle />
+            <Button variant="neon" size="sm" onClick={() => scrollToSection("contact")}>
+              Let's Talk
+            </Button>
+          </div>
         </div>
       </div>
     </nav>

@@ -14,19 +14,19 @@ const ContactSection = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      content: "alex.johnson@example.com",
-      link: "mailto:alex.johnson@example.com"
+      content: "muxtorov.hasanboy@example.com",
+      link: "mailto:muxtorov.hasanboy@example.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      content: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
+      content: "+998 (90) 123-4567",
+      link: "tel:+998901234567"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      content: "San Francisco, CA",
+      content: "Tashkent, Uzbekistan",
       link: null
     }
   ];
